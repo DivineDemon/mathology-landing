@@ -17,18 +17,18 @@ const App = () => {
     <div className="flex h-full w-full flex-col items-start justify-start bg-gray-50">
       <Navbar />
       <Hero id="hero" />
-      {/* <MaxWidthWrapper className="flex flex-col items-start justify-start gap-20 py-20 bg-gray-50"> */}
-      {/* <Feature id="features" /> */}
-      {/* <WhyMathology /> */}
-      {/* <Platform /> */}
-      {/* <TrustedBy /> */}
-      {/* <MathologyWork id="mathology-work" /> */}
-      {/* <Competitive /> */}
-      {/* <Partner /> */}
-      {/* <Testemonial id="testimonials" /> */}
-      {/* <FAQs id="faq" /> */}
-      {/* </MaxWidthWrapper> */}
-      {/* <Footer /> */}
+      <MaxWidthWrapper className="flex flex-col items-start justify-start gap-20 bg-gray-50 py-20">
+        <Feature id="features" />
+        <WhyMathology />
+        <Platform />
+        <TrustedBy />
+        <MathologyWork id="mathology-work" />
+        <Competitive />
+        <Partner />
+        <Testemonial id="testimonials" />
+        <FAQs id="faq" />
+      </MaxWidthWrapper>
+      <Footer />
     </div>
   );
 };
