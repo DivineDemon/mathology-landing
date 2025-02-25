@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 const Competitive = () => {
   return (
-    <div className="flex w-full flex-col items-center justify-center gap-5 px-5">
+    <div className="flex w-full flex-col items-center justify-center gap-5">
       <div className="flex flex-col items-center justify-center gap-4">
         <img
           src={title}

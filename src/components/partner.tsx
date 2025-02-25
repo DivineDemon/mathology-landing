@@ -9,7 +9,7 @@ import Insight from "@/assets/img/Partners/insights.svg";
 
 const Partner = () => {
   return (
-    <div className="flex w-full flex-col items-center justify-center gap-10 px-5">
+    <div className="flex w-full flex-col items-center justify-center gap-10">
       <div className="mx-auto flex w-full items-center justify-center text-3xl text-gray-400">
         Our Partners
       </div>

@@ -8,7 +8,7 @@ import MaxWidthWrapper from "./components/max-width-wrapper";
 import Navbar from "./components/navbar";
 import Partner from "./components/partner";
 import Platform from "./components/plateform";
-import Testemonial from "./components/testemonial";
+import Testimonial from "./components/testemonial";
 import TrustedBy from "./components/trusted_by";
 import WhyMathology from "./components/why_mathology";
 
@@ -20,12 +20,18 @@ const App = () => {
       <MaxWidthWrapper className="flex flex-col items-start justify-start gap-20 bg-gray-50 py-20">
         <Feature id="features" />
         <WhyMathology />
-        <Platform />
+      </MaxWidthWrapper>
+      <Platform />
+      <MaxWidthWrapper className="flex flex-col items-start justify-start gap-20 bg-gray-50 py-20">
         <TrustedBy />
-        <MathologyWork id="mathology-work" />
+      </MaxWidthWrapper>
+      <MathologyWork id="mathology-work" />
+      <MaxWidthWrapper className="flex flex-col items-start justify-start gap-20 bg-gray-50 py-20">
         <Competitive />
         <Partner />
-        <Testemonial id="testimonials" />
+      </MaxWidthWrapper>
+      <Testimonial id="testimonials" />
+      <MaxWidthWrapper className="flex flex-col items-start justify-start gap-20 bg-gray-50 py-20">
         <FAQs id="faq" />
       </MaxWidthWrapper>
       <Footer />

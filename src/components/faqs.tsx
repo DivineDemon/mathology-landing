@@ -16,12 +16,10 @@ const FAQs = ({ id }: { id?: string }) => {
     });
   };
 
-  console.log(more);
-
   return (
     <div
       id={id}
-      className="flex w-full flex-col items-center justify-center gap-3 px-5"
+      className="flex w-full flex-col items-center justify-center gap-3"
     >
       <img src={Title} alt="FQA's" className="w-16 md:w-20 lg:w-32" />
       <div className="flex flex-col items-center justify-center gap-5">

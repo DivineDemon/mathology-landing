@@ -13,7 +13,7 @@ const Feature = ({ id }: { id?: string }) => {
   return (
     <div
       id={id}
-      className="mx-auto flex h-full w-full flex-col items-center justify-center gap-4 px-5"
+      className="mx-auto flex h-full w-full flex-col items-center justify-center gap-4"
     >
       <img src={Feature_logo} alt="feature" className="w-24 md:w-44" />
 

@@ -10,7 +10,7 @@ import { Button } from "./ui/button";
 
 const WhyMathology = () => {
   return (
-    <div className="flex w-full items-center justify-center px-5">
+    <div className="flex w-full items-center justify-center">
       <div className="flex w-full flex-col items-center justify-center gap-10 lg:flex-row">
         <div className="flex flex-col gap-3">
           <img
