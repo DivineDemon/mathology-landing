@@ -14,7 +14,6 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 import Image from "../assets/img/logo.svg";
 import MaxWidthWrapper from "./max-width-wrapper";
-import { Button } from "./ui/button";
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState<string>("hero");
@@ -71,14 +70,15 @@ const Navbar = () => {
             ))}
           </div>
 
-          <Button
+          <Link
+            to="https://student.mathology.io"
             style={{
               borderTopRightRadius: "16px",
             }}
-            className="lg:text-md hidden rounded-b-full rounded-l-full bg-[#2431DD] text-sm capitalize lg:flex"
+            className="lg:text-md hidden rounded-b-full rounded-l-full bg-[#2431DD] p-3 text-sm capitalize text-white lg:flex"
           >
             get started
-          </Button>
+          </Link>
 
           <div className="lg:hidden">
             <Sheet>
@@ -106,9 +106,12 @@ const Navbar = () => {
                       {item.label}
                     </span>
                   ))}
-                  <Button className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] p-6 capitalize">
+                  <Link
+                    to="https://student.mathology.io"
+                    className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] p-4 capitalize"
+                  >
                     get started
-                  </Button>
+                  </Link>
                 </nav>
               </SheetContent>
             </Sheet>

@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 import Ai from "@/assets/img/Feature/ai_driven.svg";
 import Feature_logo from "@/assets/img/Feature/feature.svg";
@@ -7,7 +8,6 @@ import Mapping from "@/assets/img/Feature/skill_mapping.svg";
 import Base from "@/assets/img/Feature/standards_based.svg";
 import Teacher from "@/assets/img/Feature/teacher.svg";
 import VR from "@/assets/img/Feature/vr_ar_metaverse.svg";
-import { Button } from "@/components/ui/button";
 
 const Feature = ({ id }: { id?: string }) => {
   return (
@@ -97,9 +97,12 @@ const Feature = ({ id }: { id?: string }) => {
         </div>
       </div>
 
-      <Button className="text-md rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] p-6 font-semibold">
+      <Link
+        to="https://student.mathology.io"
+        className="text-md flex items-center justify-center gap-2 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] p-4 font-semibold text-white"
+      >
         FIND OUT MORE <ArrowRight />
-      </Button>
+      </Link>
     </div>
   );
 };

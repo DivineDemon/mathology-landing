@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import group from "@/assets/img/Hero/group.svg";
 import BG from "@/assets/img/Hero/hero.svg";
 import intro from "@/assets/img/Hero/introduction.svg";
@@ -5,7 +7,6 @@ import line from "@/assets/img/Hero/line_waves.svg";
 import star from "@/assets/img/Hero/stars.svg";
 
 import MaxWidthWrapper from "./max-width-wrapper";
-import { Button } from "./ui/button";
 
 const Hero = ({ id }: { id?: string }) => {
   return (
@@ -30,12 +31,12 @@ const Hero = ({ id }: { id?: string }) => {
             applications. It bridges learning gaps, boosts confidence, and
             aligns with global curricula for K-12 students.
           </span>
-          <Button
-            size={"sm"}
-            className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-brand text-left text-white"
+          <Link
+            to="https://student.mathology.io"
+            className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-brand p-4 text-left text-sm text-white"
           >
             GET STARTED
-          </Button>
+          </Link>
           <img
             src={line}
             alt="line"

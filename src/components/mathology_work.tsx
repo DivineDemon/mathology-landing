@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
+
 import Gallary from "@/assets/img/H_M_W/Group 1261153464.svg";
 import Bg from "@/assets/img/H_M_W/bg.svg";
 
 import MaxWidthWrapper from "./max-width-wrapper";
-import { Button } from "./ui/button";
 
 const MathologyWork = ({ id }: { id?: string }) => {
   return (
@@ -23,12 +24,12 @@ const MathologyWork = ({ id }: { id?: string }) => {
             Topic-wise progress Identify focus areas track the improvement of
             students and help them improve in Math
           </h1>
-          <Button
-            type="button"
-            className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] text-xs md:p-6 md:px-7 md:text-sm lg:text-lg"
+          <Link
+            to="https://student.mathology.io"
+            className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] p-4 text-sm text-white"
           >
             GET STARTED
-          </Button>
+          </Link>
         </div>
 
         <div className="col-span-1 items-center justify-end md:flex md:px-6 lg:px-3">

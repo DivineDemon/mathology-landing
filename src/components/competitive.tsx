@@ -35,9 +35,12 @@ const Competitive = () => {
           {features.map((feature) => (
             <div
               key={feature.id}
-              className={cn("flex h-12 w-full items-center justify-center", {
-                "bg-gray-100": feature.id % 2 !== 0,
-              })}
+              className={cn(
+                "flex h-12 w-full items-center justify-center text-black",
+                {
+                  "bg-gray-100": feature.id % 2 !== 0,
+                }
+              )}
             >
               <span className="w-4/12 truncate px-4 text-left">
                 {feature.feature}

@@ -1,12 +1,11 @@
 import { ArrowRight, CircleCheck } from "lucide-react";
+import { Link } from "react-router-dom";
 
 import child from "@/assets/img/Guaranteed Success/child.svg";
 import Child from "@/assets/img/Guaranteed Success/img.svg";
 import one from "@/assets/img/Guaranteed Success/one_small.svg";
 import study from "@/assets/img/Guaranteed Success/study.svg";
 import Title from "@/assets/img/Guaranteed Success/title.svg";
-
-import { Button } from "./ui/button";
 
 const WhyMathology = () => {
   return (
@@ -82,9 +81,12 @@ const WhyMathology = () => {
               diverse learners.
             </h1>
           </div>
-          <Button className="mt-5 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-brand p-6">
+          <Link
+            to="https://student.mathology.io"
+            className="mt-5 flex items-center justify-center gap-2 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-brand p-4 text-sm text-white"
+          >
             GET STARTED <ArrowRight />
-          </Button>
+          </Link>
         </div>
       </div>
     </div>

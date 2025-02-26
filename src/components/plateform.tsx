@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
+
 import bg from "@/assets/img/Platform/bg.svg";
 import childs from "@/assets/img/Platform/childs.svg";
 import school from "@/assets/img/Platform/school.svg";
 import teacher_std from "@/assets/img/Platform/teacher_std.svg";
 
 import MaxWidthWrapper from "./max-width-wrapper";
-import { Button } from "./ui/button";
 
 const Platform = ({ id }: { id?: string }) => {
   return (
@@ -15,7 +16,7 @@ const Platform = ({ id }: { id?: string }) => {
         className="max-w-screen z-0 aspect-[9/16] h-[600px] w-full object-cover md:h-[1100px] lg:aspect-auto lg:h-[1700px] xl:h-[1800px] 2xl:h-[2000px]"
       />
       <MaxWidthWrapper className="absolute inset-0 z-[1] flex w-full flex-col items-center justify-center gap-5 px-6 md:gap-20">
-        <h1 className="w-full text-left text-2xl font-extrabold md:text-4xl lg:text-5xl">
+        <h1 className="w-full text-left text-2xl font-extrabold text-black md:text-4xl lg:text-5xl">
           Platform for Everyone
         </h1>
         <div className="flex w-full items-center justify-center gap-5">
@@ -28,13 +29,12 @@ const Platform = ({ id }: { id?: string }) => {
               problems but fosters critical thinking, tracks growth, and
               nurtures long-term academic success.
             </h1>
-            <Button
-              type="button"
-              size={"sm"}
-              className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] text-xs md:p-6 md:px-7 md:text-sm lg:text-lg"
+            <Link
+              to="https://student.mathology.io"
+              className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] p-4 text-xs text-white md:text-sm lg:text-lg"
             >
               GET STARTED
-            </Button>
+            </Link>
           </div>
           <img src={childs} alt="" className="w-[35%] lg:w-1/2" />
         </div>
@@ -48,13 +48,12 @@ const Platform = ({ id }: { id?: string }) => {
               Why? Broad, inclusive, and professional. It highlights their
               expertise while aligning with AI as a collaborative too
             </h1>
-            <Button
-              type="button"
-              size={"sm"}
-              className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] text-xs md:p-6 md:px-7 md:text-sm lg:text-lg"
+            <Link
+              to="https://student.mathology.io"
+              className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] p-4 text-xs text-white md:text-sm lg:text-lg"
             >
               GET STARTED
-            </Button>
+            </Link>
           </div>
         </div>
         <div className="flex items-center justify-center gap-5">
@@ -66,13 +65,12 @@ const Platform = ({ id }: { id?: string }) => {
               Schools can use Edugain as their very own Math Learning System,
               complete with your own logo, branding and unique URL.
             </h1>
-            <Button
-              type="button"
-              size={"sm"}
-              className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] text-xs md:p-6 md:px-7 md:text-sm lg:text-lg"
+            <Link
+              to="https://student.mathology.io"
+              className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] p-4 text-xs text-white md:text-sm lg:text-lg"
             >
               GET STARTED
-            </Button>
+            </Link>
           </div>
           <img src={school} alt="" className="w-[35%] lg:w-1/2" />
         </div>
