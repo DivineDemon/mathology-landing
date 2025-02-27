@@ -14,24 +14,24 @@ import WhyMathology from "./components/why_mathology";
 
 const App = () => {
   return (
-    <div className="flex h-full w-full flex-col items-start justify-start bg-gray-50">
+    <div className="flex h-full w-full flex-col items-start justify-start overflow-hidden bg-gray-50">
       <Navbar />
       <Hero id="hero" />
-      <MaxWidthWrapper className="flex flex-col items-start justify-start gap-20 bg-gray-50 py-20">
+      <MaxWidthWrapper className="flex flex-col items-start justify-start gap-20 overflow-hidden bg-gray-50 py-20">
         <Feature id="features" />
         <WhyMathology />
       </MaxWidthWrapper>
       <Platform />
-      <MaxWidthWrapper className="flex flex-col items-start justify-start gap-20 bg-gray-50 py-20">
+      <MaxWidthWrapper className="flex flex-col items-start justify-start gap-20 overflow-hidden bg-gray-50 py-20">
         <TrustedBy />
       </MaxWidthWrapper>
       <MathologyWork id="mathology-work" />
-      <MaxWidthWrapper className="flex flex-col items-start justify-start gap-20 bg-gray-50 py-20">
+      <MaxWidthWrapper className="flex flex-col items-start justify-start gap-20 overflow-hidden bg-gray-50 py-20">
         <Competitive />
         <Partner />
       </MaxWidthWrapper>
       <Testimonial id="testimonials" />
-      <MaxWidthWrapper className="flex flex-col items-start justify-start gap-20 bg-gray-50 py-20">
+      <MaxWidthWrapper className="flex flex-col items-start justify-start gap-20 overflow-hidden bg-gray-50 py-20">
         <FAQs id="faq" />
       </MaxWidthWrapper>
       <Footer />
