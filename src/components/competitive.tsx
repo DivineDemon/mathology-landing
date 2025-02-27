@@ -36,7 +36,7 @@ const Competitive = () => {
             <div
               key={feature.id}
               className={cn(
-                "flex h-12 w-full items-center justify-center text-black",
+                "group flex h-12 w-full items-center justify-center text-black transition-transform duration-300 hover:scale-95 hover:shadow-lg",
                 {
                   "bg-gray-100": feature.id % 2 !== 0,
                 }

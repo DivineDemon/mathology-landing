@@ -17,7 +17,7 @@ const Footer = () => {
         </Link>
       </div>
 
-      <div className="h-px w-full border border-gray-600" />
+      <div className="h-px w-full border border-[#223953]" />
 
       <div className="mx-auto flex w-full flex-col items-center justify-between gap-6 p-6 md:flex-row md:px-10 lg:p-10 lg:px-24">
         <img src={Image} alt="logo" className="w-32" />
