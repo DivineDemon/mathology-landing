@@ -48,13 +48,13 @@ const Testimonial = ({ id }: { id?: string }) => {
         alt="bg"
         className="z-0 h-[400px] w-full object-cover md:h-full"
       />
-      <MaxWidthWrapper className="absolute inset-0 z-[1] flex h-[400px] w-full flex-col items-center justify-center md:mt-0 md:h-full lg:mt-5 lg:p-5">
+      <MaxWidthWrapper className="absolute inset-0 z-[1] flex h-[400px] w-full flex-col items-center justify-center md:mt-0 md:h-full lg:mt-5 lg:gap-5 lg:p-5">
         <img src={Title} alt="Works" className="flex w-14 md:w-16 lg:w-24" />
         <h1 className="mt-1.5 w-full text-center font-bold text-white md:text-lg lg:text-4xl">
           What People Say about Our Organization
         </h1>
         <div className="mx-auto my-5 h-1 w-20 bg-yellow-500" />
-        <div className="relative flex w-full items-center justify-center px-5">
+        <div className="relative flex w-full items-center justify-center px-5 lg:pt-5">
           <button
             type="button"
             onClick={handlePrev}

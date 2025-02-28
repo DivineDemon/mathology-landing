@@ -53,12 +53,14 @@ const Platform = ({ id }: { id?: string }) => {
                 solves problems but fosters critical thinking, tracks growth,
                 and nurtures long-term academic success.
               </h1>
-              <Link
-                to="https://student.mathology.io"
-                className="rounded-full bg-[#2431DD] p-4 text-xs text-white md:text-sm lg:text-lg"
-              >
-                GET STARTED
-              </Link>
+              <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+                <Link
+                  to="https://student.mathology.io"
+                  className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] p-4 text-xs text-white md:text-sm lg:text-lg"
+                >
+                  GET STARTED
+                </Link>
+              </motion.div>
             </motion.div>
             <motion.img
               src={childs}
@@ -92,12 +94,14 @@ const Platform = ({ id }: { id?: string }) => {
                 Why? Broad, inclusive, and professional. It highlights their
                 expertise while aligning with AI as a collaborative tool.
               </h1>
-              <Link
-                to="https://student.mathology.io"
-                className="rounded-full bg-[#2431DD] p-4 text-xs text-white md:text-sm lg:text-lg"
-              >
-                GET STARTED
-              </Link>
+              <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+                <Link
+                  to="https://student.mathology.io"
+                  className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] p-4 text-xs text-white md:text-sm lg:text-lg"
+                >
+                  GET STARTED
+                </Link>
+              </motion.div>
             </motion.div>
           </motion.div>
 
@@ -115,16 +119,18 @@ const Platform = ({ id }: { id?: string }) => {
               <h1 className="text-[18px] font-bold leading-[18px] text-black md:text-3xl lg:text-5xl">
                 For Schools
               </h1>
-              <h1 className="text-xs text-black md:w-[60%] md:text-sm lg:text-2xl">
+              <h1 className="text-xs text-black md:text-sm lg:text-2xl">
                 Schools can use Edugain as their very own Math Learning System,
                 complete with your own logo, branding, and unique URL.
               </h1>
-              <Link
-                to="https://student.mathology.io"
-                className="rounded-full bg-[#2431DD] p-4 text-xs text-white md:text-sm lg:text-lg"
-              >
-                GET STARTED
-              </Link>
+              <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+                <Link
+                  to="https://student.mathology.io"
+                  className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] p-4 text-xs text-white md:text-sm lg:text-lg"
+                >
+                  GET STARTED
+                </Link>
+              </motion.div>
             </motion.div>
             <motion.img
               src={school}

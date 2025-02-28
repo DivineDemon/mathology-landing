@@ -12,10 +12,10 @@ const MathologyWork = ({ id }: { id?: string }) => {
       <img
         src={Bg}
         alt="bg"
-        className="z-0 h-[775px] object-cover xl:h-full xl:w-full"
+        className="z-0 h-[730px] object-cover xl:h-full xl:w-full"
       />
 
-      <MaxWidthWrapper className="jutify-between absolute inset-0 z-[1] flex w-full flex-col items-center gap-10 p-5 lg:p-14">
+      <MaxWidthWrapper className="jutify-between absolute inset-0 z-[1] flex w-full flex-col items-center gap-5 p-5 md:gap-10 lg:gap-0 lg:p-14">
         <div className="flex flex-col items-center justify-center gap-3 px-6 text-left md:gap-5 md:px-10 lg:gap-10">
           <h1 className="text-xl font-bold text-white md:text-4xl lg:text-5xl xl:text-6xl">
             How Mathology Works
@@ -27,9 +27,9 @@ const MathologyWork = ({ id }: { id?: string }) => {
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 items-center justify-end gap-5 overflow-auto md:flex md:grid-cols-2 md:overflow-hidden md:px-6 lg:grid-cols-4 lg:gap-24 lg:px-3">
-          <div className="col-span-1 flex flex-col items-center justify-between gap-5 lg:flex-row lg:gap-24">
-            <div className="flex w-full flex-col items-center justify-center gap-4 rounded-2xl bg-white p-5">
+        <div className="grid grid-cols-1 items-center justify-end gap-5 overflow-auto md:flex md:grid-cols-2 md:overflow-hidden md:px-6 lg:grid-cols-4 lg:gap-16 lg:px-3">
+          <div className="col-span-1 flex flex-col items-center justify-between gap-5 lg:flex-row lg:gap-16">
+            <div className="flex w-full flex-col items-center justify-center gap-4 rounded-2xl bg-white p-5 lg:p-7">
               <img src={SOA} alt="SOA" className="" />
               <h1 className="text-center font-bold lg:text-lg">
                 Student Onboarding
@@ -41,7 +41,7 @@ const MathologyWork = ({ id }: { id?: string }) => {
                 proficiency.
               </span>
             </div>
-            <div className="flex w-full flex-col items-center justify-center gap-4 rounded-2xl bg-white p-5 lg:mt-32">
+            <div className="flex w-full flex-col items-center justify-center gap-4 rounded-2xl bg-white p-5 lg:mt-24 lg:p-7">
               <img src={PLJ} alt="" />
               <h1 className="text-center font-bold lg:text-lg">
                 Personalized Learning
@@ -57,8 +57,8 @@ const MathologyWork = ({ id }: { id?: string }) => {
               </span>
             </div>
           </div>
-          <div className="col-span-1 flex flex-col items-center justify-between gap-5 lg:flex-row lg:gap-24">
-            <div className="flex w-full flex-col items-center justify-center gap-4 rounded-2xl bg-white p-5">
+          <div className="col-span-1 flex flex-col items-center justify-between gap-5 lg:flex-row lg:gap-16">
+            <div className="flex w-full flex-col items-center justify-center gap-4 rounded-2xl bg-white p-5 lg:p-7">
               <img src={CAAA} alt="" />
               <h1 className="text-center font-bold lg:text-lg">
                 Continuous Assessment <br />& AI Adaptation
@@ -69,7 +69,7 @@ const MathologyWork = ({ id }: { id?: string }) => {
                 adjusts content accordingly.
               </span>
             </div>
-            <div className="flex w-full flex-col items-center justify-center gap-4 rounded-2xl bg-white p-5 lg:mt-32">
+            <div className="flex w-full flex-col items-center justify-center gap-4 rounded-2xl bg-white p-5 py-9 lg:mt-24 lg:p-7">
               <img src={TPI} alt="" />
               <h1 className="text-center font-bold lg:text-lg">
                 Teacher & Parent <br /> Involvement

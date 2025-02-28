@@ -42,7 +42,7 @@ const FAQs = ({ id }: { id?: string }) => {
           {faqlist.map((faq, index) => (
             <motion.div
               key={faq.id}
-              className="flex flex-col gap-3 rounded-2xl bg-gray-100 p-4"
+              className="flex flex-col gap-3 rounded-2xl bg-gray-100 p-4 hover:shadow-lg"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
@@ -52,7 +52,7 @@ const FAQs = ({ id }: { id?: string }) => {
               <h1 className="lg:text-md text-gray-500 md:text-sm">
                 {more.more && more.id === faq.id
                   ? faq.description
-                  : `${faq.description.slice(0, 20)}...`}
+                  : `${faq.description.slice(0, 80)}...`}
                 . &nbsp;
                 <span
                   onClick={() => handleToggle(faq.id)}

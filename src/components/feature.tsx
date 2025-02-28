@@ -60,15 +60,19 @@ const Feature = ({ id }: { id?: string }) => {
             className="flex flex-col items-center justify-center gap-3 rounded-3xl border bg-white p-16"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.2 }}
+            transition={{ duration: 0.5, delay: index * 0 }}
             whileHover={{
-              scale: 1.0,
+              scale: 1.05,
+              rotate: 3,
               boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)",
             }}
           >
-            <div className="rounded-full bg-brand p-5">
+            <motion.div
+              className="rounded-full bg-brand p-5"
+              transition={{ duration: 0.5 }}
+            >
               <img src={feature.img} alt={feature.title} className="size-16" />
-            </div>
+            </motion.div>
             <h2 className="text-center text-2xl font-bold text-[#363539]">
               {feature.title}
               <br />
@@ -81,7 +85,7 @@ const Feature = ({ id }: { id?: string }) => {
       <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
         <Link
           to="https://student.mathology.io"
-          className="text-md flex items-center justify-center gap-2 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] p-4 font-semibold text-white"
+          className="text-md mt-8 flex items-center justify-center gap-2 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-[#2431DD] p-4 font-semibold text-white"
         >
           FIND OUT MORE <ArrowRight />
         </Link>

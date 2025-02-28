@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -8,13 +9,15 @@ const Footer = () => {
     <footer className="mx-auto flex h-full w-full flex-col items-center justify-center border-t bg-[#0B294B]">
       <div className="flex h-full w-full items-center justify-between p-6 text-white lg:p-24 lg:px-24">
         <h1 className="text-xl font-semibold lg:text-4xl">Get Started Today</h1>
-        <Link
-          target="_blank"
-          to="https://student.mathology.io"
-          className="flex items-center justify-center gap-2.5 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-white p-3 text-primary lg:p-7 lg:px-10"
-        >
-          Try It Free <ArrowRight className="size-5" />
-        </Link>
+        <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+          <Link
+            target="_blank"
+            to="https://student.mathology.io"
+            className="flex items-center justify-center gap-2.5 rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-white p-3 text-primary lg:p-5 lg:px-10"
+          >
+            Try It Free <ArrowRight className="size-5" />
+          </Link>
+        </motion.div>
       </div>
 
       <div className="h-px w-full border border-[#223953]" />

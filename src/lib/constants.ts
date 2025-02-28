@@ -52,38 +52,38 @@ export const features = [
 export const faqlist = [
   {
     id: 1,
-    title: "What services does Tanah air offer ?",
+    title: "What is Mathology?",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "Mathology is an AI-powered EdTech platform designed to personalize math learning for K-12 students. It combines adaptive learning, gamification, and real-world applications to bridge knowledge gaps.",
   },
   {
     id: 2,
-    title: "What services does Tanah air offer ?",
+    title: "How does Mathology personalize learning?",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "Our AI analyzes each student's performance in real-time, adjusting the difficulty and content to match their unique strengths and weaknesses. This ensures a tailored learning path that evolves with their progress",
   },
   {
     id: 3,
-    title: "What services does Tanah air offer ?",
+    title: "What age or grade levels does Mathology support?",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "Mathology is designed for K-12 students, covering all grade levels from kindergarten through 12th grade. The content adapts to suit varying developmental stages and academic requirements.",
   },
   {
     id: 4,
-    title: "What services does Tanah air offer ?",
+    title: "How does gamification enhance the learning experience?",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "Gamification elements like rewards, badges, and interactive challenges make learning engaging and fun. These features motivate students to practice consistently and celebrate their progress.",
   },
   {
     id: 5,
-    title: "What services does Tanah air offer ?",
+    title: "Is Mathology aligned with school curricula?",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "Yes! Mathology's content is crafted to align with global K-12 curricula, ensuring it complements classroom learning and prepares students for standardized tests and academic success.",
   },
   {
     id: 6,
-    title: "What services does Tanah air offer ?",
+    title: "Can Mathology help students struggling with math?",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "Absolutely. By identifying learning gaps and offering targeted practice, real-world examples, and adaptive challenges, Mathology builds foundational skills and boosts confidence in struggling learners.",
   },
 ];

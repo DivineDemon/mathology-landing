@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 const Competitive = () => {
   return (
-    <div className="flex w-full flex-col items-center justify-center gap-5">
+    <div className="flex w-full flex-col items-center justify-center gap-10">
       <div className="flex flex-col items-center justify-center gap-4">
         <img
           src={title}
@@ -36,7 +36,7 @@ const Competitive = () => {
             <div
               key={feature.id}
               className={cn(
-                "group flex h-12 w-full items-center justify-center text-black transition-transform duration-300 hover:scale-95 hover:shadow-lg",
+                "group flex h-14 w-full items-center justify-center text-black transition-transform duration-300 hover:scale-95 hover:shadow-lg",
                 {
                   "bg-gray-100": feature.id % 2 !== 0,
                 }

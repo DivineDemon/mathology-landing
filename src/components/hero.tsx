@@ -13,7 +13,7 @@ const Hero = ({ id }: { id?: string }) => {
   return (
     <div
       id={id}
-      className="relative flex h-full w-full items-start justify-center"
+      className="relative top-20 flex h-full w-full items-start justify-center md:top-24 xl:top-10"
     >
       <motion.img
         src={BG}
@@ -60,12 +60,14 @@ const Hero = ({ id }: { id?: string }) => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 1.2 }}
           >
-            <Link
-              to="https://student.mathology.io"
-              className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-brand p-4 text-left text-sm text-white"
-            >
-              GET STARTED
-            </Link>
+            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+              <Link
+                to="https://student.mathology.io"
+                className="rounded-bl-full rounded-br-full rounded-tl-full rounded-tr-lg bg-brand p-2.5 text-left text-sm text-white lg:p-4"
+              >
+                GET STARTED
+              </Link>
+            </motion.div>
           </motion.div>
           <motion.img
             src={line}
